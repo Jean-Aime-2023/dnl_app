@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="dnl_ui"
+        android:label="dnl"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
