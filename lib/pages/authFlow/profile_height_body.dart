@@ -55,7 +55,7 @@ class _ProfilePhysicalState extends State<ProfilePhysical> {
 
               SizedBox(
                 width: double.infinity,
-                height: 530,
+                height: 510,
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
