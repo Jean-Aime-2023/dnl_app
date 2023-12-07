@@ -2,6 +2,8 @@
 
 import 'package:dnl_ui/components/CustomButton.dart';
 import 'package:dnl_ui/pages/authFlow/profile_height_body.dart';
+import 'package:dnl_ui/pages/profile/mainOnboardingPage.dart';
+import 'package:dnl_ui/pages/profile/name.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -61,8 +63,14 @@ class profileHome extends StatelessWidget {
                         }),
                       );
                     }
-                )
-                // Add more widgets as needed
+                ),
+
+                CustomButton(title: "LET'S DO IT", color: Colors.white, textColor: Color(0xFFFB685E), borderColor: Colors.transparent, onPressed: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) {
+                    return MainOnboardingPage();
+                  }),
+                );})// Add more widgets as needed
               ],
             ),
           ),
